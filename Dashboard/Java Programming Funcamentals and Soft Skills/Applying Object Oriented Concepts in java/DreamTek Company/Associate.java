@@ -1,4 +1,6 @@
 class Associate {
+    public Associate(){
+    }
     private int associateId;
     private String associateName;
     private String workStatus;
@@ -35,7 +37,7 @@ class Associate {
         } else if (days <= 60) {
             setWorkStatus("Project phase");
         } else {
-            setWorkStatus("Project phase");
+            setWorkStatus("Deployed in project");
         }
     }
 }
