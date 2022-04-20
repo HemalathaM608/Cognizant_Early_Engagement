@@ -1,4 +1,6 @@
 class Associate {
+    public Associate(){
+    }
     private int associateId;
     private String associateName;
     private String workStatus;
